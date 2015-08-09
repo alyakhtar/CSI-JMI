@@ -1,0 +1,120 @@
+/* BOOTSTRAP 3.x GLOBAL STYLES
+-------------------------------------------------- */
+body {
+  /*padding-bottom: 40px;*/
+  background-image: url(../images/background.png);
+}
+
+
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+.carousel-caption {
+  z-index: 1;
+}
+
+.carousel .item {
+  height: 660px;
+  background-color:#555;
+}
+.carousel img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 400px;
+}
+
+
+/*CUSTOMIZE THE FOOTER
+-------------------------------------------------------*/
+.ftr{
+  padding-top:40px;
+  padding-bottom: 20px;
+  background: #7ACC29;
+}
+
+.ftr-color{
+  color: black;
+}
+
+/*CUSTOMIZE THE ABOUT
+-------------------------------------------------------*/
+.about{
+  color:black;
+  background: url('../images/about.jpg') no-repeat center center fixed;
+}
+
+
+/*CUSTOMIZE THE CONTACT
+-------------------------------------------------------*/
+.contact{
+  color:black;
+  background-image: url('../images/contact.jpg');
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.contact2{
+  padding-top: 40px;
+}
+
+
+
+/*CUSTOMIZE THE MEMBERSHIP
+-------------------------------------------------------*/
+.membership{
+  color:black;
+  background: url('../images/membership.jpg');
+  margin-bottom: 170px;
+}
+
+.membership2{  
+  padding-top: 130px;
+}
+
+.butn{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+    margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+  }
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+}
